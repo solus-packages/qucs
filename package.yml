@@ -1,0 +1,22 @@
+name       : qucs
+version    : 0.0.19
+release    : 1
+source     :
+    - git|https://github.com/Qucs/qucs : qucs-0.0.19
+license    : GPL-2.0-or-later
+component  : office.scientific
+summary    : Quite Universal Circuit Simulator
+description: |
+    Qucs is an integrated circuit simulator which means you are able to setup a circuit with a graphical user interface (GUI) and simulate the large-signal, small-signal and noise behaviour of the circuit. After that simulation has finished you can view the simulation results on a presentation page or window.
+builddeps  :
+    - pkgconfig(QtCore)
+    - gperf
+libsplit   : no
+setup      : |
+    %cmake_ninja -DQT_MOC_EXECUTABLE=/usr/bin/moc-qt4 \
+                 -DQT_RCC_EXECUTABLE=/usr/bin/rcc-qt4 \
+                 -DQT_UIC_EXECUTABLE=/usr/bin/uic-qt4
+build      : |
+    %ninja_build
+install    : |
+    %ninja_install

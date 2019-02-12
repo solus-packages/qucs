@@ -1,0 +1,358 @@
+<PISI>
+    <Source>
+        <Name>qucs</Name>
+        <Packager>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Packager>
+        <License>GPL-2.0-or-later</License>
+        <PartOf>office.scientific</PartOf>
+        <Summary xml:lang="en">Quite Universal Circuit Simulator</Summary>
+        <Description xml:lang="en">Qucs is an integrated circuit simulator which means you are able to setup a circuit with a graphical user interface (GUI) and simulate the large-signal, small-signal and noise behaviour of the circuit. After that simulation has finished you can view the simulation results on a presentation page or window.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>qucs</Name>
+        <Summary xml:lang="en">Quite Universal Circuit Simulator</Summary>
+        <Description xml:lang="en">Qucs is an integrated circuit simulator which means you are able to setup a circuit with a graphical user interface (GUI) and simulate the large-signal, small-signal and noise behaviour of the circuit. After that simulation has finished you can view the simulation results on a presentation page or window.
+</Description>
+        <PartOf>office.scientific</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/ps2sp</Path>
+            <Path fileType="executable">/usr/bin/qucs</Path>
+            <Path fileType="executable">/usr/bin/qucsactivefilter</Path>
+            <Path fileType="executable">/usr/bin/qucsator</Path>
+            <Path fileType="executable">/usr/bin/qucsattenuator</Path>
+            <Path fileType="executable">/usr/bin/qucsconv</Path>
+            <Path fileType="executable">/usr/bin/qucsdigi</Path>
+            <Path fileType="executable">/usr/bin/qucsdigilib</Path>
+            <Path fileType="executable">/usr/bin/qucsedit</Path>
+            <Path fileType="executable">/usr/bin/qucsfilter</Path>
+            <Path fileType="executable">/usr/bin/qucshelp</Path>
+            <Path fileType="executable">/usr/bin/qucslib</Path>
+            <Path fileType="executable">/usr/bin/qucsrescodes</Path>
+            <Path fileType="executable">/usr/bin/qucstrans</Path>
+            <Path fileType="executable">/usr/bin/qucsveri</Path>
+            <Path fileType="library">/usr/lib/libqucs.so</Path>
+            <Path fileType="data">/usr/share/applications/qucs.desktop</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/qucs.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/qucs.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/22x22/apps/qucs.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/256x256/apps/qucs.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/qucs.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/qucs.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/512x512/apps/qucs.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/qucs.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/scalable/apps/qucs.svg</Path>
+            <Path fileType="man">/usr/share/man/man1/ps2sp.1</Path>
+            <Path fileType="man">/usr/share/man/man1/qucs.1</Path>
+            <Path fileType="man">/usr/share/man/man1/qucsactivefilter.1</Path>
+            <Path fileType="man">/usr/share/man/man1/qucsator.1</Path>
+            <Path fileType="man">/usr/share/man/man1/qucsattenuator.1</Path>
+            <Path fileType="man">/usr/share/man/man1/qucsconv.1</Path>
+            <Path fileType="man">/usr/share/man/man1/qucsdigi.1</Path>
+            <Path fileType="man">/usr/share/man/man1/qucsdigilib.1</Path>
+            <Path fileType="man">/usr/share/man/man1/qucsedit.1</Path>
+            <Path fileType="man">/usr/share/man/man1/qucsfilter.1</Path>
+            <Path fileType="man">/usr/share/man/man1/qucshelp.1</Path>
+            <Path fileType="man">/usr/share/man/man1/qucslib.1</Path>
+            <Path fileType="man">/usr/share/man/man1/qucsrescodes.1</Path>
+            <Path fileType="man">/usr/share/man/man1/qucstrans.1</Path>
+            <Path fileType="man">/usr/share/man/man1/qucsveri.1</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/characters.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/contab.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/index.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/internal.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/matching.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/mathfunc.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/optimization1.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/optimization2.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/optimization3.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/optimization4.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/optimization5.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/optimization6.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/optimization7.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/optimization8.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/paste.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/programs.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/qucsdigi.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/qucsmain.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/select.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/short.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/start.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/start_digi.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/start_opt.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/subcircuit.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/subcircuit.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/cs/wire.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/characters.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/index.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/inhalttab.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/internal.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/matching.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/mathfunc.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/optimization1.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/optimization2.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/optimization3.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/optimization4.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/optimization5.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/optimization6.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/optimization7.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/optimization8.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/paste.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/programs.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/qucsdigi.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/qucshaupt.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/select.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/short.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/start.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/start_digi.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/start_opt.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/subcircuit.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/unterschaltung.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/de/wire.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/characters.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/contab.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/index.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/internal.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/matching.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/mathfunc.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/octave.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/optimization1.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/optimization10.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/optimization2.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/optimization3.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/optimization4.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/optimization5.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/optimization6.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/optimization7.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/optimization8.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/optimization9.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/paste.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/programs.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/qucsdigi.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/qucsmain.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/select.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/short.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/start.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/start_digi.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/start_opt.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/subcircuit.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/subcircuit.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/en/wire.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/es/contab.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/es/index.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/es/mathfunc.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/es/paste.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/es/programs.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/es/qucsmain.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/es/select.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/es/short.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/es/start.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/es/subcircuit.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/es/subcircuit.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/es/wire.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/fr/contab.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/fr/index.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/fr/mathfunc.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/fr/paste.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/fr/qucsmain.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/fr/select.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/fr/short.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/fr/start.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/fr/subcircuit.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/fr/subcircuit.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/fr/wire.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/characters.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/contab.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/index.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/internal.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/matching.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/mathfunc.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/optimization1.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/optimization2.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/optimization3.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/optimization4.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/optimization5.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/optimization6.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/optimization7.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/optimization8.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/paste.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/programs.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/qucsdigi.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/qucsmain.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/select.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/short.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/start.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/start_digi.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/start_opt.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/subcircuit.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/subcircuit.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/pt/wire.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/characters.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/contab.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/index.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/internal.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/matching.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/mathfunc.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/optimization1.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/optimization2.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/optimization3.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/optimization4.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/optimization5.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/optimization6.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/optimization7.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/optimization8.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/paste.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/programs.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/qucsdigi.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/qucsmain.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/select.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/short.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/start.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/start_digi.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/start_opt.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/subcircuit.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/subcircuit.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/ru/wire.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/characters.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/contab.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/index.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/internal.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/matching.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/mathfunc.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/optimization1.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/optimization2.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/optimization3.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/optimization4.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/optimization5.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/optimization6.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/optimization7.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/optimization8.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/paste.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/programs.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/qucsdigi.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/qucsmain.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/select.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/short.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/start.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/start_digi.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/start_opt.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/subcircuit.html</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/subcircuit.png</Path>
+            <Path fileType="data">/usr/share/qucs/docs/uk/wire.png</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_ar.qm</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_ca.qm</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_cs.qm</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_de.qm</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_en.qm</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_es.qm</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_fr.qm</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_he.qm</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_hu.qm</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_it.qm</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_ja.qm</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_kk.qm</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_pl.qm</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_pt_BR.qm</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_pt_PT.qm</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_ro.qm</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_ru.qm</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_sv.qm</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_tr.qm</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_uk.qm</Path>
+            <Path fileType="data">/usr/share/qucs/lang/qucs_zh_CN.qm</Path>
+            <Path fileType="data">/usr/share/qucs/library/Bridges.lib</Path>
+            <Path fileType="data">/usr/share/qucs/library/Diodes.lib</Path>
+            <Path fileType="data">/usr/share/qucs/library/Ideal.lib</Path>
+            <Path fileType="data">/usr/share/qucs/library/JFETs.lib</Path>
+            <Path fileType="data">/usr/share/qucs/library/LEDs.lib</Path>
+            <Path fileType="data">/usr/share/qucs/library/MOSFETs.lib</Path>
+            <Path fileType="data">/usr/share/qucs/library/NMOSFETs.lib</Path>
+            <Path fileType="data">/usr/share/qucs/library/OpAmps.lib</Path>
+            <Path fileType="data">/usr/share/qucs/library/PMOSFETs.lib</Path>
+            <Path fileType="data">/usr/share/qucs/library/Regulators.lib</Path>
+            <Path fileType="data">/usr/share/qucs/library/Substrates.lib</Path>
+            <Path fileType="data">/usr/share/qucs/library/Transistors.lib</Path>
+            <Path fileType="data">/usr/share/qucs/library/Varistors.lib</Path>
+            <Path fileType="data">/usr/share/qucs/library/Z-Diodes.lib</Path>
+            <Path fileType="data">/usr/share/qucs/octave/getQucsVariable.m</Path>
+            <Path fileType="data">/usr/share/qucs/octave/loadQucsDataSet.m</Path>
+            <Path fileType="data">/usr/share/qucs/octave/loadQucsVariable.m</Path>
+            <Path fileType="data">/usr/share/qucs/octave/plotCartesian2D.m</Path>
+            <Path fileType="data">/usr/share/qucs/octave/plotCartesian2D2V.m</Path>
+            <Path fileType="data">/usr/share/qucs/octave/plotFFT.m</Path>
+            <Path fileType="data">/usr/share/qucs/octave/plotFFT2V.m</Path>
+            <Path fileType="data">/usr/share/qucs/octave/plotTimeFFT.m</Path>
+            <Path fileType="data">/usr/share/qucs/octave/showQucsDataSet.m</Path>
+            <Path fileType="data">/usr/share/qucs/python/parse_result.py</Path>
+            <Path fileType="data">/usr/share/qucs/python/parse_result_example.py</Path>
+            <Path fileType="data">/usr/share/qucs/python/rc_ac_sweep.dat</Path>
+            <Path fileType="data">/usr/share/qucs/python/rc_ac_sweep.net</Path>
+            <Path fileType="data">/usr/share/qucs/tline/cstrip_kj_1.trc</Path>
+            <Path fileType="data">/usr/share/qucs/tline/cstrip_kj_2.trc</Path>
+            <Path fileType="data">/usr/share/qucs/tline/hp.trc</Path>
+            <Path fileType="data">/usr/share/qucs/tline/ustrip50fr4.trc</Path>
+            <Path fileType="data">/usr/share/qucs/tline/ustrip_jansen.trc</Path>
+        </Files>
+    </Package>
+    <Package>
+        <Name>qucs-devel</Name>
+        <Summary xml:lang="en">Development files for qucs</Summary>
+        <Description xml:lang="en">Qucs is an integrated circuit simulator which means you are able to setup a circuit with a graphical user interface (GUI) and simulate the large-signal, small-signal and noise behaviour of the circuit. After that simulation has finished you can view the simulation results on a presentation page or window.
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <RuntimeDependencies>
+            <Dependency release="1">qucs</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="header">/usr/include/qucs-core/analogfunction.xml</Path>
+            <Path fileType="header">/usr/include/qucs-core/characteristic.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/circuit.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/compat.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/complex.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/component.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/component_id.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/components.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/config.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/constants.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/consts.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/cpp2lib.makefile</Path>
+            <Path fileType="header">/usr/include/qucs-core/device.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/integrator.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/logging.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/matrix.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/net.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/netdefs.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/node.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/object.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/operatingpoint.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/pair.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/precision.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/property.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/ptrlist.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/qucsMODULEcore.xml</Path>
+            <Path fileType="header">/usr/include/qucs-core/qucsMODULEdefs.xml</Path>
+            <Path fileType="header">/usr/include/qucs-core/qucsMODULEgui.xml</Path>
+            <Path fileType="header">/usr/include/qucs-core/qucsMODULEguiJSONsymbol.xml</Path>
+            <Path fileType="header">/usr/include/qucs-core/qucsVersion.xml</Path>
+            <Path fileType="header">/usr/include/qucs-core/qucs_interface.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/qucs_typedefs.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/real.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/states.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/va2cpp.makefile</Path>
+            <Path fileType="header">/usr/include/qucs-core/valuelist.h</Path>
+            <Path fileType="header">/usr/include/qucs-core/vector.h</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2019-02-11</Date>
+            <Version>0.0.19</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Update>
+    </History>
+</PISI>
