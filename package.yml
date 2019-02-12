@@ -1,6 +1,6 @@
 name       : qucs
 version    : 0.0.19
-release    : 2
+release    : 3
 source     :
     - git|https://github.com/Qucs/qucs : qucs-0.0.19
 license    : GPL-2.0-or-later
@@ -16,10 +16,15 @@ rundeps    :
     - adms
 libsplit   : no
 setup      : |
-    %cmake_ninja -DQT_MOC_EXECUTABLE=/usr/bin/moc-qt4 \
-                 -DQT_RCC_EXECUTABLE=/usr/bin/rcc-qt4 \
-                 -DQT_UIC_EXECUTABLE=/usr/bin/uic-qt4
+    mkdir BUILD
+    pushd BUILD
+    %cmake -DCMAKE_INSTALL_PREFIX=$installdir/%PREFIX% \
+           -DQT_MOC_EXECUTABLE=/usr/bin/moc-qt4 \
+           -DQT_RCC_EXECUTABLE=/usr/bin/rcc-qt4 \
+           -DQT_UIC_EXECUTABLE=/usr/bin/uic-qt4 ..
 build      : |
-    %ninja_build
+    pushd BUILD
+    %make -j1
 install    : |
-    %ninja_install
+    pushd BUILD
+    %make -j1 install
