@@ -158,6 +158,7 @@ libqucs.so:_Z25touchstone__delete_bufferP15yy_buffer_state
 libqucs.so:_Z27touchstone_pop_buffer_statev
 libqucs.so:_Z28touchstone__switch_to_bufferP15yy_buffer_state
 libqucs.so:_Z28touchstone_push_buffer_stateP15yy_buffer_state
+libqucs.so:_Z7dl_listB5cxx11
 libqucs.so:_Z8csv_freePv
 libqucs.so:_Z8mdl_freePv
 libqucs.so:_Z8zvr_freePv
@@ -167,6 +168,7 @@ libqucs.so:_Z9mdl_allocm
 libqucs.so:_Z9zvr_allocm
 libqucs.so:_ZN10attenuator11calcNoiseACEd
 libqucs.so:_ZN10attenuator11calcNoiseSPEd
+libqucs.so:_ZN10attenuator6cirdefE
 libqucs.so:_ZN10attenuator6initACEv
 libqucs.so:_ZN10attenuator6initDCEv
 libqucs.so:_ZN10attenuator6initSPEv
@@ -174,12 +176,14 @@ libqucs.so:_ZN10attenuator6initTREv
 libqucs.so:_ZN10attenuatorC1Ev
 libqucs.so:_ZN10attenuatorC2Ev
 libqucs.so:_ZN10circulator6calcSPEd
+libqucs.so:_ZN10circulator6cirdefE
 libqucs.so:_ZN10circulator6initACEv
 libqucs.so:_ZN10circulator6initDCEv
 libqucs.so:_ZN10circulator6initTREv
 libqucs.so:_ZN10circulatorC1Ev
 libqucs.so:_ZN10circulatorC2Ev
 libqucs.so:_ZN10digisource6calcTREd
+libqucs.so:_ZN10digisource6cirdefE
 libqucs.so:_ZN10digisource6initACEv
 libqucs.so:_ZN10digisource6initDCEv
 libqucs.so:_ZN10digisource6initSPEv
@@ -197,6 +201,7 @@ libqucs.so:_ZN10eqndefined6calcDCEv
 libqucs.so:_ZN10eqndefined6calcHBEi
 libqucs.so:_ZN10eqndefined6calcSPEd
 libqucs.so:_ZN10eqndefined6calcTREd
+libqucs.so:_ZN10eqndefined6cirdefE
 libqucs.so:_ZN10eqndefined6initACEv
 libqucs.so:_ZN10eqndefined6initDCEv
 libqucs.so:_ZN10eqndefined6initHBEi
@@ -228,6 +233,7 @@ libqucs.so:_ZN10photodiode6calcDCEv
 libqucs.so:_ZN10photodiode6calcHBEi
 libqucs.so:_ZN10photodiode6calcSPEd
 libqucs.so:_ZN10photodiode6calcTREd
+libqucs.so:_ZN10photodiode6cirdefE
 libqucs.so:_ZN10photodiode6initACEv
 libqucs.so:_ZN10photodiode6initDCEv
 libqucs.so:_ZN10photodiode6initHBEi
@@ -256,6 +262,7 @@ libqucs.so:_ZN10vcresistor6calcDCEv
 libqucs.so:_ZN10vcresistor6calcHBEi
 libqucs.so:_ZN10vcresistor6calcSPEd
 libqucs.so:_ZN10vcresistor6calcTREd
+libqucs.so:_ZN10vcresistor6cirdefE
 libqucs.so:_ZN10vcresistor6initACEv
 libqucs.so:_ZN10vcresistor6initDCEv
 libqucs.so:_ZN10vcresistor6initHBEi
@@ -284,6 +291,7 @@ libqucs.so:_ZN11gatedDlatch6calcDCEv
 libqucs.so:_ZN11gatedDlatch6calcHBEi
 libqucs.so:_ZN11gatedDlatch6calcSPEd
 libqucs.so:_ZN11gatedDlatch6calcTREd
+libqucs.so:_ZN11gatedDlatch6cirdefE
 libqucs.so:_ZN11gatedDlatch6initACEv
 libqucs.so:_ZN11gatedDlatch6initDCEv
 libqucs.so:_ZN11gatedDlatch6initHBEi
@@ -312,6 +320,7 @@ libqucs.so:_ZN11hpribin4bit6calcDCEv
 libqucs.so:_ZN11hpribin4bit6calcHBEi
 libqucs.so:_ZN11hpribin4bit6calcSPEd
 libqucs.so:_ZN11hpribin4bit6calcTREd
+libqucs.so:_ZN11hpribin4bit6cirdefE
 libqucs.so:_ZN11hpribin4bit6initACEv
 libqucs.so:_ZN11hpribin4bit6initDCEv
 libqucs.so:_ZN11hpribin4bit6initHBEi
@@ -331,6 +340,7 @@ libqucs.so:_ZN11tunneldiode6calcDCEv
 libqucs.so:_ZN11tunneldiode6calcIdEdRdS0_
 libqucs.so:_ZN11tunneldiode6calcSPEd
 libqucs.so:_ZN11tunneldiode6calcTREd
+libqucs.so:_ZN11tunneldiode6cirdefE
 libqucs.so:_ZN11tunneldiode6initACEv
 libqucs.so:_ZN11tunneldiode6initDCEv
 libqucs.so:_ZN11tunneldiode6initTREv
@@ -343,6 +353,7 @@ libqucs.so:_ZN11twistedpair15calcPropagationEd
 libqucs.so:_ZN11twistedpair19saveCharacteristicsEd
 libqucs.so:_ZN11twistedpair6calcACEd
 libqucs.so:_ZN11twistedpair6calcSPEd
+libqucs.so:_ZN11twistedpair6cirdefE
 libqucs.so:_ZN11twistedpair6initACEv
 libqucs.so:_ZN11twistedpair6initDCEv
 libqucs.so:_ZN11twistedpair6initSPEv
@@ -350,6 +361,7 @@ libqucs.so:_ZN11twistedpair6initTREv
 libqucs.so:_ZN11twistedpair8calcLossEd
 libqucs.so:_ZN11twistedpairC1Ev
 libqucs.so:_ZN11twistedpairC2Ev
+libqucs.so:_ZN12phaseshifter6cirdefE
 libqucs.so:_ZN12phaseshifter6initACEv
 libqucs.so:_ZN12phaseshifter6initDCEv
 libqucs.so:_ZN12phaseshifter6initSPEv
@@ -373,6 +385,7 @@ libqucs.so:_ZN13potentiometer6calcDCEv
 libqucs.so:_ZN13potentiometer6calcHBEi
 libqucs.so:_ZN13potentiometer6calcSPEd
 libqucs.so:_ZN13potentiometer6calcTREd
+libqucs.so:_ZN13potentiometer6cirdefE
 libqucs.so:_ZN13potentiometer6initACEv
 libqucs.so:_ZN13potentiometer6initDCEv
 libqucs.so:_ZN13potentiometer6initHBEi
@@ -407,6 +420,7 @@ libqucs.so:_ZN15phototransistor6calcDCEv
 libqucs.so:_ZN15phototransistor6calcHBEi
 libqucs.so:_ZN15phototransistor6calcSPEd
 libqucs.so:_ZN15phototransistor6calcTREd
+libqucs.so:_ZN15phototransistor6cirdefE
 libqucs.so:_ZN15phototransistor6initACEv
 libqucs.so:_ZN15phototransistor6initDCEv
 libqucs.so:_ZN15phototransistor6initHBEi
@@ -435,6 +449,7 @@ libqucs.so:_ZN16binarytogrey4bit6calcDCEv
 libqucs.so:_ZN16binarytogrey4bit6calcHBEi
 libqucs.so:_ZN16binarytogrey4bit6calcSPEd
 libqucs.so:_ZN16binarytogrey4bit6calcTREd
+libqucs.so:_ZN16binarytogrey4bit6cirdefE
 libqucs.so:_ZN16binarytogrey4bit6initACEv
 libqucs.so:_ZN16binarytogrey4bit6initDCEv
 libqucs.so:_ZN16binarytogrey4bit6initHBEi
@@ -463,6 +478,7 @@ libqucs.so:_ZN16greytobinary4bit6calcDCEv
 libqucs.so:_ZN16greytobinary4bit6calcHBEi
 libqucs.so:_ZN16greytobinary4bit6calcSPEd
 libqucs.so:_ZN16greytobinary4bit6calcTREd
+libqucs.so:_ZN16greytobinary4bit6cirdefE
 libqucs.so:_ZN16greytobinary4bit6initACEv
 libqucs.so:_ZN16greytobinary4bit6initDCEv
 libqucs.so:_ZN16greytobinary4bit6initHBEi
@@ -486,6 +502,7 @@ libqucs.so:_ZN3bjt6calcACEd
 libqucs.so:_ZN3bjt6calcDCEv
 libqucs.so:_ZN3bjt6calcSPEd
 libqucs.so:_ZN3bjt6calcTREd
+libqucs.so:_ZN3bjt6cirdefE
 libqucs.so:_ZN3bjt6initACEv
 libqucs.so:_ZN3bjt6initDCEv
 libqucs.so:_ZN3bjt6initSPEv
@@ -495,12 +512,14 @@ libqucs.so:_ZN3bjt9restartDCEv
 libqucs.so:_ZN3bjtC1Ev
 libqucs.so:_ZN3bjtC2Ev
 libqucs.so:_ZN3iac6calcTREd
+libqucs.so:_ZN3iac6cirdefE
 libqucs.so:_ZN3iac6initACEv
 libqucs.so:_ZN3iac6initDCEv
 libqucs.so:_ZN3iac6initSPEv
 libqucs.so:_ZN3iacC1Ev
 libqucs.so:_ZN3iacC2Ev
 libqucs.so:_ZN3idc6calcDCEv
+libqucs.so:_ZN3idc6cirdefE
 libqucs.so:_ZN3idc6initACEv
 libqucs.so:_ZN3idc6initDCEv
 libqucs.so:_ZN3idc6initSPEv
@@ -514,6 +533,7 @@ libqucs.so:_ZN3pac6calcDCEv
 libqucs.so:_ZN3pac6calcHBEd
 libqucs.so:_ZN3pac6calcSPEd
 libqucs.so:_ZN3pac6calcTREd
+libqucs.so:_ZN3pac6cirdefE
 libqucs.so:_ZN3pac6initHBEv
 libqucs.so:_ZN3pacC1Ev
 libqucs.so:_ZN3pacC2Ev
@@ -525,6 +545,7 @@ libqucs.so:_ZN3teeC1Ev
 libqucs.so:_ZN3teeC2Ev
 libqucs.so:_ZN3vac6calcHBEd
 libqucs.so:_ZN3vac6calcTREd
+libqucs.so:_ZN3vac6cirdefE
 libqucs.so:_ZN3vac6initACEv
 libqucs.so:_ZN3vac6initDCEv
 libqucs.so:_ZN3vac6initHBEv
@@ -533,6 +554,7 @@ libqucs.so:_ZN3vac6initTREv
 libqucs.so:_ZN3vacC1Ev
 libqucs.so:_ZN3vacC2Ev
 libqucs.so:_ZN3vam6calcTREd
+libqucs.so:_ZN3vam6cirdefE
 libqucs.so:_ZN3vam6initACEv
 libqucs.so:_ZN3vam6initDCEv
 libqucs.so:_ZN3vam6initSPEv
@@ -541,6 +563,7 @@ libqucs.so:_ZN3vamC1Ev
 libqucs.so:_ZN3vamC2Ev
 libqucs.so:_ZN3vdc6calcDCEv
 libqucs.so:_ZN3vdc6calcHBEd
+libqucs.so:_ZN3vdc6cirdefE
 libqucs.so:_ZN3vdc6initACEv
 libqucs.so:_ZN3vdc6initDCEv
 libqucs.so:_ZN3vdc6initHBEv
@@ -549,6 +572,7 @@ libqucs.so:_ZN3vdc6initTREv
 libqucs.so:_ZN3vdcC1Ev
 libqucs.so:_ZN3vdcC2Ev
 libqucs.so:_ZN3vpm6calcTREd
+libqucs.so:_ZN3vpm6cirdefE
 libqucs.so:_ZN3vpm6initACEv
 libqucs.so:_ZN3vpm6initDCEv
 libqucs.so:_ZN3vpm6initSPEv
@@ -558,6 +582,7 @@ libqucs.so:_ZN3vpmC2Ev
 libqucs.so:_ZN4cccs6calcACEd
 libqucs.so:_ZN4cccs6calcSPEd
 libqucs.so:_ZN4cccs6calcTREd
+libqucs.so:_ZN4cccs6cirdefE
 libqucs.so:_ZN4cccs6initACEv
 libqucs.so:_ZN4cccs6initDCEv
 libqucs.so:_ZN4cccs6initTREv
@@ -566,6 +591,7 @@ libqucs.so:_ZN4cccsC2Ev
 libqucs.so:_ZN4ccvs6calcACEd
 libqucs.so:_ZN4ccvs6calcSPEd
 libqucs.so:_ZN4ccvs6calcTREd
+libqucs.so:_ZN4ccvs6cirdefE
 libqucs.so:_ZN4ccvs6initACEv
 libqucs.so:_ZN4ccvs6initDCEv
 libqucs.so:_ZN4ccvs6initTREv
@@ -580,12 +606,14 @@ libqucs.so:_ZN4diac6calcACEd
 libqucs.so:_ZN4diac6calcDCEv
 libqucs.so:_ZN4diac6calcSPEd
 libqucs.so:_ZN4diac6calcTREd
+libqucs.so:_ZN4diac6cirdefE
 libqucs.so:_ZN4diac6initACEv
 libqucs.so:_ZN4diac6initDCEv
 libqucs.so:_ZN4diac6initTREv
 libqucs.so:_ZN4diacC1Ev
 libqucs.so:_ZN4diacC2Ev
 libqucs.so:_ZN4ecvs6calcTREd
+libqucs.so:_ZN4ecvs6cirdefE
 libqucs.so:_ZN4ecvs6initACEv
 libqucs.so:_ZN4ecvs6initDCEv
 libqucs.so:_ZN4ecvs6initSPEv
@@ -610,6 +638,7 @@ libqucs.so:_ZN4fa1b6calcDCEv
 libqucs.so:_ZN4fa1b6calcHBEi
 libqucs.so:_ZN4fa1b6calcSPEd
 libqucs.so:_ZN4fa1b6calcTREd
+libqucs.so:_ZN4fa1b6cirdefE
 libqucs.so:_ZN4fa1b6initACEv
 libqucs.so:_ZN4fa1b6initDCEv
 libqucs.so:_ZN4fa1b6initHBEi
@@ -638,6 +667,7 @@ libqucs.so:_ZN4fa2b6calcDCEv
 libqucs.so:_ZN4fa2b6calcHBEi
 libqucs.so:_ZN4fa2b6calcSPEd
 libqucs.so:_ZN4fa2b6calcTREd
+libqucs.so:_ZN4fa2b6cirdefE
 libqucs.so:_ZN4fa2b6initACEv
 libqucs.so:_ZN4fa2b6initDCEv
 libqucs.so:_ZN4fa2b6initHBEi
@@ -666,6 +696,7 @@ libqucs.so:_ZN4ha1b6calcDCEv
 libqucs.so:_ZN4ha1b6calcHBEi
 libqucs.so:_ZN4ha1b6calcSPEd
 libqucs.so:_ZN4ha1b6calcTREd
+libqucs.so:_ZN4ha1b6cirdefE
 libqucs.so:_ZN4ha1b6initACEv
 libqucs.so:_ZN4ha1b6initDCEv
 libqucs.so:_ZN4ha1b6initHBEi
@@ -677,6 +708,7 @@ libqucs.so:_ZN4ha1b9restartDCEv
 libqucs.so:_ZN4ha1bC1Ev
 libqucs.so:_ZN4ha1bC2Ev
 libqucs.so:_ZN4iexp6calcTREd
+libqucs.so:_ZN4iexp6cirdefE
 libqucs.so:_ZN4iexp6initACEv
 libqucs.so:_ZN4iexp6initDCEv
 libqucs.so:_ZN4iexp6initSPEv
@@ -694,6 +726,7 @@ libqucs.so:_ZN4jfet6calcACEd
 libqucs.so:_ZN4jfet6calcDCEv
 libqucs.so:_ZN4jfet6calcSPEd
 libqucs.so:_ZN4jfet6calcTREd
+libqucs.so:_ZN4jfet6cirdefE
 libqucs.so:_ZN4jfet6initACEv
 libqucs.so:_ZN4jfet6initDCEv
 libqucs.so:_ZN4jfet6initTREv
@@ -726,6 +759,7 @@ libqucs.so:_ZN4qucs10e_trsolver17updateHistoryAgesEd
 libqucs.so:_ZN4qucs10e_trsolver24updateExternalInterpTimeEd
 libqucs.so:_ZN4qucs10e_trsolver4initEddi
 libqucs.so:_ZN4qucs10e_trsolver5debugEv
+libqucs.so:_ZN4qucs10e_trsolver6anadefE
 libqucs.so:_ZN4qucs10e_trsolver6printxEv
 libqucs.so:_ZN4qucs10e_trsolver7initETREddi
 libqucs.so:_ZN4qucs10e_trsolver8getNodeVEPcRd
@@ -789,6 +823,7 @@ libqucs.so:_ZN4qucs12interpolatorC1Ev
 libqucs.so:_ZN4qucs12interpolatorC2Ev
 libqucs.so:_ZN4qucs12interpolatorD1Ev
 libqucs.so:_ZN4qucs12interpolatorD2Ev
+libqucs.so:_ZN4qucs13netlist_checkE
 libqucs.so:_ZN4qucs14exceptionstack3popEv
 libqucs.so:_ZN4qucs14exceptionstack3topEv
 libqucs.so:_ZN4qucs14exceptionstack4pushEPNS_9exceptionE
@@ -913,6 +948,7 @@ libqucs.so:_ZN4qucs3eqn11applicationC2Ev
 libqucs.so:_ZN4qucs3eqn11applicationD0Ev
 libqucs.so:_ZN4qucs3eqn11applicationD1Ev
 libqucs.so:_ZN4qucs3eqn11applicationD2Ev
+libqucs.so:_ZN4qucs3eqn12applicationsE
 libqucs.so:_ZN4qucs3eqn13differentiate10app_reduceEPKcPNS0_4nodeES5_
 libqucs.so:_ZN4qucs3eqn13differentiate10ifthenelseEPNS0_11applicationEPc
 libqucs.so:_ZN4qucs3eqn13differentiate10plus_unaryEPNS0_11applicationEPc
@@ -969,6 +1005,7 @@ libqucs.so:_ZN4qucs3eqn13differentiate6xhypotEPNS0_11applicationEPc
 libqucs.so:_ZN4qucs3eqn13differentiate8arccosecEPNS0_11applicationEPc
 libqucs.so:_ZN4qucs3eqn13differentiate8arcosechEPNS0_11applicationEPc
 libqucs.so:_ZN4qucs3eqn13differentiate9ln_reduceEPNS0_4nodeE
+libqucs.so:_ZN4qucs3eqn16differentiationsE
 libqucs.so:_ZN4qucs3eqn4node11appendNodesEPS1_
 libqucs.so:_ZN4qucs3eqn4node11getInstanceEv
 libqucs.so:_ZN4qucs3eqn4node11setInstanceEPKc
@@ -2037,6 +2074,7 @@ libqucs.so:_ZN4qucs6device9pnCurrentEddd
 libqucs.so:_ZN4qucs6device9pnVoltageEdddd
 libqucs.so:_ZN4qucs6erfinvENS_6vectorE
 libqucs.so:_ZN4qucs6erfinvESt7complexIdE
+libqucs.so:_ZN4qucs6estackE
 libqucs.so:_ZN4qucs6limexpENS_6vectorE
 libqucs.so:_ZN4qucs6limexpESt7complexIdE
 libqucs.so:_ZN4qucs6limexpEd
@@ -2091,6 +2129,7 @@ libqucs.so:_ZN4qucs6module16closeDynamicLibsEv
 libqucs.so:_ZN4qucs6module17unregisterModulesEv
 libqucs.so:_ZN4qucs6module22registerDynamicModulesEPcNSt7__cxx114listINS2_12basic_stringIcSt11char_traitsIcESaIcEEESaIS8_EEE
 libqucs.so:_ZN4qucs6module5printEv
+libqucs.so:_ZN4qucs6module7modulesE
 libqucs.so:_ZN4qucs6module9getModuleEPc
 libqucs.so:_ZN4qucs6moduleC1Ev
 libqucs.so:_ZN4qucs6moduleC2Ev
@@ -2237,6 +2276,7 @@ libqucs.so:_ZN4qucs7circuit21transientCapacitanceQEiid
 libqucs.so:_ZN4qucs7circuit21transientCapacitanceQEiiid
 libqucs.so:_ZN4qucs7circuit23transientCapacitanceC2QEiiidd
 libqucs.so:_ZN4qucs7circuit23transientCapacitanceC2VEiiidd
+libqucs.so:_ZN4qucs7circuit2z0E
 libqucs.so:_ZN4qucs7circuit4addIEiSt7complexIdE
 libqucs.so:_ZN4qucs7circuit4addIEid
 libqucs.so:_ZN4qucs7circuit4addYEiiSt7complexIdE
@@ -2364,6 +2404,7 @@ libqucs.so:_ZN4qucs7inverseENS_6matrixE
 libqucs.so:_ZN4qucs7inverseENS_6matvecE
 libqucs.so:_ZN4qucs7nodeset11findNodesetEPc
 libqucs.so:_ZN4qucs7nodeset7getNameEv
+libqucs.so:_ZN4qucs7nodeset7miscdefE
 libqucs.so:_ZN4qucs7nodeset7setNameEPc
 libqucs.so:_ZN4qucs7nodesetC1EPc
 libqucs.so:_ZN4qucs7nodesetC1EPcd
@@ -2412,6 +2453,7 @@ libqucs.so:_ZN4qucs8acsolver16saveNoiseResultsEPNS_6vectorE
 libqucs.so:_ZN4qucs8acsolver4calcEPS0_
 libqucs.so:_ZN4qucs8acsolver4initEv
 libqucs.so:_ZN4qucs8acsolver5solveEv
+libqucs.so:_ZN4qucs8acsolver6anadefE
 libqucs.so:_ZN4qucs8acsolverC1EPc
 libqucs.so:_ZN4qucs8acsolverC1ERS0_
 libqucs.so:_ZN4qucs8acsolverC1Ev
@@ -2447,6 +2489,7 @@ libqucs.so:_ZN4qucs8dcsolver19saveOperatingPointsEv
 libqucs.so:_ZN4qucs8dcsolver4calcEPS0_
 libqucs.so:_ZN4qucs8dcsolver4initEv
 libqucs.so:_ZN4qucs8dcsolver5solveEv
+libqucs.so:_ZN4qucs8dcsolver6anadefE
 libqucs.so:_ZN4qucs8dcsolver7restartEv
 libqucs.so:_ZN4qucs8dcsolverC1EPc
 libqucs.so:_ZN4qucs8dcsolverC1ERS0_
@@ -2490,6 +2533,7 @@ libqucs.so:_ZN4qucs8hbsolver20assignVoltageSourcesENSt7__cxx114listIPNS_7circuit
 libqucs.so:_ZN4qucs8hbsolver24fillMatrixLinearExtendedEPNS_7tmatrixISt7complexIdEEEPNS_7tvectorIS3_EE
 libqucs.so:_ZN4qucs8hbsolver4calcEPS0_
 libqucs.so:_ZN4qucs8hbsolver5solveEv
+libqucs.so:_ZN4qucs8hbsolver6anadefE
 libqucs.so:_ZN4qucs8hbsolver6initDCEv
 libqucs.so:_ZN4qucs8hbsolver6initHBEv
 libqucs.so:_ZN4qucs8hbsolver7solveHBEv
@@ -2567,6 +2611,7 @@ libqucs.so:_ZN4qucs8spsolver23insertDifferentialPortsEv
 libqucs.so:_ZN4qucs8spsolver4calcEd
 libqucs.so:_ZN4qucs8spsolver4initEv
 libqucs.so:_ZN4qucs8spsolver5solveEv
+libqucs.so:_ZN4qucs8spsolver6anadefE
 libqucs.so:_ZN4qucs8spsolver6reduceEv
 libqucs.so:_ZN4qucs8spsolver7dropTeeEPNS_7circuitE
 libqucs.so:_ZN4qucs8spsolver8createCVERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES8_
@@ -2600,6 +2645,7 @@ libqucs.so:_ZN4qucs8trsolver14saveAllResultsEd
 libqucs.so:_ZN4qucs8trsolver15predictBashfordEv
 libqucs.so:_ZN4qucs8trsolver18updateCoefficientsEd
 libqucs.so:_ZN4qucs8trsolver5solveEv
+libqucs.so:_ZN4qucs8trsolver6anadefE
 libqucs.so:_ZN4qucs8trsolver6calcDCEPS0_
 libqucs.so:_ZN4qucs8trsolver6calcTREPS0_
 libqucs.so:_ZN4qucs8trsolver6initDCEv
@@ -2654,6 +2700,7 @@ libqucs.so:_ZN4qucs9integrateENS_6vectorEd
 libqucs.so:_ZN4qucs9parasweep10initializeEv
 libqucs.so:_ZN4qucs9parasweep11saveResultsEv
 libqucs.so:_ZN4qucs9parasweep5solveEv
+libqucs.so:_ZN4qucs9parasweep6anadefE
 libqucs.so:_ZN4qucs9parasweep7cleanupEv
 libqucs.so:_ZN4qucs9parasweepC1EPc
 libqucs.so:_ZN4qucs9parasweepC1ERS0_
@@ -2664,6 +2711,7 @@ libqucs.so:_ZN4qucs9parasweepC2Ev
 libqucs.so:_ZN4qucs9parasweepD0Ev
 libqucs.so:_ZN4qucs9parasweepD1Ev
 libqucs.so:_ZN4qucs9parasweepD2Ev
+libqucs.so:_ZN4qucs9substrate7miscdefE
 libqucs.so:_ZN4qucs9substrateC1ERKS0_
 libqucs.so:_ZN4qucs9substrateC1Ev
 libqucs.so:_ZN4qucs9substrateC2ERKS0_
@@ -2772,6 +2820,7 @@ libqucs.so:_ZN4rlcg15calcPropagationEd
 libqucs.so:_ZN4rlcg19saveCharacteristicsEd
 libqucs.so:_ZN4rlcg6calcACEd
 libqucs.so:_ZN4rlcg6calcSPEd
+libqucs.so:_ZN4rlcg6cirdefE
 libqucs.so:_ZN4rlcg6initACEv
 libqucs.so:_ZN4rlcg6initDCEv
 libqucs.so:_ZN4rlcg6initTREv
@@ -2780,6 +2829,7 @@ libqucs.so:_ZN4rlcgC2Ev
 libqucs.so:_ZN4vccs6calcACEd
 libqucs.so:_ZN4vccs6calcSPEd
 libqucs.so:_ZN4vccs6calcTREd
+libqucs.so:_ZN4vccs6cirdefE
 libqucs.so:_ZN4vccs6initACEv
 libqucs.so:_ZN4vccs6initDCEv
 libqucs.so:_ZN4vccs6initTREv
@@ -2788,12 +2838,14 @@ libqucs.so:_ZN4vccsC2Ev
 libqucs.so:_ZN4vcvs6calcACEd
 libqucs.so:_ZN4vcvs6calcSPEd
 libqucs.so:_ZN4vcvs6calcTREd
+libqucs.so:_ZN4vcvs6cirdefE
 libqucs.so:_ZN4vcvs6initACEv
 libqucs.so:_ZN4vcvs6initDCEv
 libqucs.so:_ZN4vcvs6initTREv
 libqucs.so:_ZN4vcvsC1Ev
 libqucs.so:_ZN4vcvsC2Ev
 libqucs.so:_ZN4vexp6calcTREd
+libqucs.so:_ZN4vexp6cirdefE
 libqucs.so:_ZN4vexp6initACEv
 libqucs.so:_ZN4vexp6initDCEv
 libqucs.so:_ZN4vexp6initSPEv
@@ -2817,6 +2869,7 @@ libqucs.so:_ZN5diode6calcDCEv
 libqucs.so:_ZN5diode6calcHBEi
 libqucs.so:_ZN5diode6calcSPEd
 libqucs.so:_ZN5diode6calcTREd
+libqucs.so:_ZN5diode6cirdefE
 libqucs.so:_ZN5diode6initACEv
 libqucs.so:_ZN5diode6initDCEv
 libqucs.so:_ZN5diode6initHBEi
@@ -2827,6 +2880,7 @@ libqucs.so:_ZN5diode9restartDCEv
 libqucs.so:_ZN5diodeC1Ev
 libqucs.so:_ZN5diodeC2Ev
 libqucs.so:_ZN5ifile6calcTREd
+libqucs.so:_ZN5ifile6cirdefE
 libqucs.so:_ZN5ifile6initACEv
 libqucs.so:_ZN5ifile6initDCEv
 libqucs.so:_ZN5ifile6initSPEv
@@ -2838,6 +2892,7 @@ libqucs.so:_ZN5ifileD0Ev
 libqucs.so:_ZN5ifileD1Ev
 libqucs.so:_ZN5ifileD2Ev
 libqucs.so:_ZN5irect6calcTREd
+libqucs.so:_ZN5irect6cirdefE
 libqucs.so:_ZN5irect6initACEv
 libqucs.so:_ZN5irect6initDCEv
 libqucs.so:_ZN5irect6initSPEv
@@ -2847,6 +2902,7 @@ libqucs.so:_ZN5irectC2Ev
 libqucs.so:_ZN5msgap11calcMatrixYEd
 libqucs.so:_ZN5msgap6calcACEd
 libqucs.so:_ZN5msgap6calcSPEd
+libqucs.so:_ZN5msgap6cirdefE
 libqucs.so:_ZN5msgap6initDCEv
 libqucs.so:_ZN5msgapC1Ev
 libqucs.so:_ZN5msgapC2Ev
@@ -2855,6 +2911,7 @@ libqucs.so:_ZN5mstee11initNoiseSPEv
 libqucs.so:_ZN5mstee15calcPropagationEd
 libqucs.so:_ZN5mstee6calcACEd
 libqucs.so:_ZN5mstee6calcSPEd
+libqucs.so:_ZN5mstee6cirdefE
 libqucs.so:_ZN5mstee6initACEv
 libqucs.so:_ZN5mstee6initDCEv
 libqucs.so:_ZN5mstee6initSPEv
@@ -2868,6 +2925,7 @@ libqucs.so:_ZN5msvia13calcImpedanceEd
 libqucs.so:_ZN5msvia14calcResistanceEv
 libqucs.so:_ZN5msvia6calcACEd
 libqucs.so:_ZN5msvia6calcSPEd
+libqucs.so:_ZN5msvia6cirdefE
 libqucs.so:_ZN5msvia6initACEv
 libqucs.so:_ZN5msvia6initDCEv
 libqucs.so:_ZN5msvia6initSPEv
@@ -2891,6 +2949,7 @@ libqucs.so:_ZN5nigbt6calcDCEv
 libqucs.so:_ZN5nigbt6calcHBEi
 libqucs.so:_ZN5nigbt6calcSPEd
 libqucs.so:_ZN5nigbt6calcTREd
+libqucs.so:_ZN5nigbt6cirdefE
 libqucs.so:_ZN5nigbt6initACEv
 libqucs.so:_ZN5nigbt6initDCEv
 libqucs.so:_ZN5nigbt6initHBEi
@@ -2904,6 +2963,7 @@ libqucs.so:_ZN5nigbtC2Ev
 libqucs.so:_ZN5opamp19calcOperatingPointsEv
 libqucs.so:_ZN5opamp6calcDCEv
 libqucs.so:_ZN5opamp6calcTREd
+libqucs.so:_ZN5opamp6cirdefE
 libqucs.so:_ZN5opamp6initACEv
 libqucs.so:_ZN5opamp6initDCEv
 libqucs.so:_ZN5opamp6initSPEv
@@ -2919,6 +2979,7 @@ libqucs.so:_ZN5rfedd6calcACEd
 libqucs.so:_ZN5rfedd6calcDCEv
 libqucs.so:_ZN5rfedd6calcSPEd
 libqucs.so:_ZN5rfedd6calcTREd
+libqucs.so:_ZN5rfedd6cirdefE
 libqucs.so:_ZN5rfedd6initACEv
 libqucs.so:_ZN5rfedd6initDCEv
 libqucs.so:_ZN5rfedd6initSPEv
@@ -2939,11 +3000,13 @@ libqucs.so:_ZN5tline11calcNoiseSPEd
 libqucs.so:_ZN5tline6calcACEd
 libqucs.so:_ZN5tline6calcSPEd
 libqucs.so:_ZN5tline6calcTREd
+libqucs.so:_ZN5tline6cirdefE
 libqucs.so:_ZN5tline6initACEv
 libqucs.so:_ZN5tline6initDCEv
 libqucs.so:_ZN5tline6initTREv
 libqucs.so:_ZN5tlineC1Ev
 libqucs.so:_ZN5tlineC2Ev
+libqucs.so:_ZN5trafo6cirdefE
 libqucs.so:_ZN5trafo6initACEv
 libqucs.so:_ZN5trafo6initDCEv
 libqucs.so:_ZN5trafo6initSPEv
@@ -2959,12 +3022,14 @@ libqucs.so:_ZN5triac6calcACEd
 libqucs.so:_ZN5triac6calcDCEv
 libqucs.so:_ZN5triac6calcSPEd
 libqucs.so:_ZN5triac6calcTREd
+libqucs.so:_ZN5triac6cirdefE
 libqucs.so:_ZN5triac6initACEv
 libqucs.so:_ZN5triac6initDCEv
 libqucs.so:_ZN5triac6initTREv
 libqucs.so:_ZN5triacC1Ev
 libqucs.so:_ZN5triacC2Ev
 libqucs.so:_ZN5vfile6calcTREd
+libqucs.so:_ZN5vfile6cirdefE
 libqucs.so:_ZN5vfile6initACEv
 libqucs.so:_ZN5vfile6initDCEv
 libqucs.so:_ZN5vfile6initSPEv
@@ -2976,6 +3041,7 @@ libqucs.so:_ZN5vfileD0Ev
 libqucs.so:_ZN5vfileD1Ev
 libqucs.so:_ZN5vfileD2Ev
 libqucs.so:_ZN5vrect6calcTREd
+libqucs.so:_ZN5vrect6cirdefE
 libqucs.so:_ZN5vrect6initACEv
 libqucs.so:_ZN5vrect6initDCEv
 libqucs.so:_ZN5vrect6initSPEv
@@ -3000,6 +3066,7 @@ libqucs.so:_ZN6MESFET6calcDCEv
 libqucs.so:_ZN6MESFET6calcHBEi
 libqucs.so:_ZN6MESFET6calcSPEd
 libqucs.so:_ZN6MESFET6calcTREd
+libqucs.so:_ZN6MESFET6cirdefE
 libqucs.so:_ZN6MESFET6initACEv
 libqucs.so:_ZN6MESFET6initDCEv
 libqucs.so:_ZN6MESFET6initHBEi
@@ -3019,11 +3086,13 @@ libqucs.so:_ZN6ashortC1Ev
 libqucs.so:_ZN6ashortC2Ev
 libqucs.so:_ZN6buffer10calcOutputEv
 libqucs.so:_ZN6buffer15calcDerivativesEv
+libqucs.so:_ZN6buffer6cirdefE
 libqucs.so:_ZN6bufferC1Ev
 libqucs.so:_ZN6bufferC2Ev
 libqucs.so:_ZN6cpwgap11calcMatrixYEd
 libqucs.so:_ZN6cpwgap6calcACEd
 libqucs.so:_ZN6cpwgap6calcSPEd
+libqucs.so:_ZN6cpwgap6cirdefE
 libqucs.so:_ZN6cpwgap6initDCEv
 libqucs.so:_ZN6cpwgapC1Ev
 libqucs.so:_ZN6cpwgapC2Ev
@@ -3031,11 +3100,13 @@ libqucs.so:_ZN6ctline11calcNoiseACEd
 libqucs.so:_ZN6ctline11calcNoiseSPEd
 libqucs.so:_ZN6ctline6calcACEd
 libqucs.so:_ZN6ctline6calcSPEd
+libqucs.so:_ZN6ctline6cirdefE
 libqucs.so:_ZN6ctline6initACEv
 libqucs.so:_ZN6ctline6initDCEv
 libqucs.so:_ZN6ctlineC1Ev
 libqucs.so:_ZN6ctlineC2Ev
 libqucs.so:_ZN6dcfeed6calcTREd
+libqucs.so:_ZN6dcfeed6cirdefE
 libqucs.so:_ZN6dcfeed6initACEv
 libqucs.so:_ZN6dcfeed6initDCEv
 libqucs.so:_ZN6dcfeed6initSPEv
@@ -3060,6 +3131,7 @@ libqucs.so:_ZN6dff_SR6calcDCEv
 libqucs.so:_ZN6dff_SR6calcHBEi
 libqucs.so:_ZN6dff_SR6calcSPEd
 libqucs.so:_ZN6dff_SR6calcTREd
+libqucs.so:_ZN6dff_SR6cirdefE
 libqucs.so:_ZN6dff_SR6initACEv
 libqucs.so:_ZN6dff_SR6initDCEv
 libqucs.so:_ZN6dff_SR6initHBEi
@@ -3073,6 +3145,7 @@ libqucs.so:_ZN6dff_SRC2Ev
 libqucs.so:_ZN6ground6initSPEv
 libqucs.so:_ZN6groundC1Ev
 libqucs.so:_ZN6groundC2Ev
+libqucs.so:_ZN6hybrid6cirdefE
 libqucs.so:_ZN6hybrid6initACEv
 libqucs.so:_ZN6hybrid6initDCEv
 libqucs.so:_ZN6hybrid6initSPEv
@@ -3081,9 +3154,11 @@ libqucs.so:_ZN6hybridC1Ev
 libqucs.so:_ZN6hybridC2Ev
 libqucs.so:_ZN6inoise11calcNoiseACEd
 libqucs.so:_ZN6inoise11calcNoiseSPEd
+libqucs.so:_ZN6inoise6cirdefE
 libqucs.so:_ZN6inoise6initSPEv
 libqucs.so:_ZN6inoiseC1Ev
 libqucs.so:_ZN6inoiseC2Ev
+libqucs.so:_ZN6iprobe6cirdefE
 libqucs.so:_ZN6iprobe6initACEv
 libqucs.so:_ZN6iprobe6initDCEv
 libqucs.so:_ZN6iprobe6initSPEv
@@ -3091,6 +3166,7 @@ libqucs.so:_ZN6iprobe6initTREv
 libqucs.so:_ZN6iprobeC1Ev
 libqucs.so:_ZN6iprobeC2Ev
 libqucs.so:_ZN6ipulse6calcTREd
+libqucs.so:_ZN6ipulse6cirdefE
 libqucs.so:_ZN6ipulse6initACEv
 libqucs.so:_ZN6ipulse6initDCEv
 libqucs.so:_ZN6ipulse6initSPEv
@@ -3113,6 +3189,7 @@ libqucs.so:_ZN6mosfet6calcACEd
 libqucs.so:_ZN6mosfet6calcDCEv
 libqucs.so:_ZN6mosfet6calcSPEd
 libqucs.so:_ZN6mosfet6calcTREd
+libqucs.so:_ZN6mosfet6cirdefE
 libqucs.so:_ZN6mosfet6initACEv
 libqucs.so:_ZN6mosfet6initDCEv
 libqucs.so:_ZN6mosfet6initTREv
@@ -3135,6 +3212,7 @@ libqucs.so:_ZN6msline18analyseQuasiStaticEddddPKcRdS2_S2_
 libqucs.so:_ZN6msline19saveCharacteristicsEd
 libqucs.so:_ZN6msline6calcACEd
 libqucs.so:_ZN6msline6calcSPEd
+libqucs.so:_ZN6msline6cirdefE
 libqucs.so:_ZN6msline6initACEv
 libqucs.so:_ZN6msline6initDCEv
 libqucs.so:_ZN6mslineC1Ev
@@ -3142,6 +3220,7 @@ libqucs.so:_ZN6mslineC2Ev
 libqucs.so:_ZN6msopen5calcYEd
 libqucs.so:_ZN6msopen6calcACEd
 libqucs.so:_ZN6msopen6calcSPEd
+libqucs.so:_ZN6msopen6cirdefE
 libqucs.so:_ZN6msopen6initDCEv
 libqucs.so:_ZN6msopen8calcCendEdddddPKcS1_S1_
 libqucs.so:_ZN6msopenC1Ev
@@ -3149,6 +3228,7 @@ libqucs.so:_ZN6msopenC2Ev
 libqucs.so:_ZN6msstep11calcMatrixZEd
 libqucs.so:_ZN6msstep6calcACEd
 libqucs.so:_ZN6msstep6calcSPEd
+libqucs.so:_ZN6msstep6cirdefE
 libqucs.so:_ZN6msstep6initACEv
 libqucs.so:_ZN6msstep6initDCEv
 libqucs.so:_ZN6msstep6initTREv
@@ -3158,6 +3238,7 @@ libqucs.so:_ZN6mutual11calcMatrixYEd
 libqucs.so:_ZN6mutual6calcACEd
 libqucs.so:_ZN6mutual6calcSPEd
 libqucs.so:_ZN6mutual6calcTREd
+libqucs.so:_ZN6mutual6cirdefE
 libqucs.so:_ZN6mutual6initACEv
 libqucs.so:_ZN6mutual6initDCEv
 libqucs.so:_ZN6mutual6initTREv
@@ -3168,6 +3249,7 @@ libqucs.so:_ZN6relais11calcNoiseSPEd
 libqucs.so:_ZN6relais19saveOperatingPointsEv
 libqucs.so:_ZN6relais6calcDCEv
 libqucs.so:_ZN6relais6calcTREd
+libqucs.so:_ZN6relais6cirdefE
 libqucs.so:_ZN6relais6initACEv
 libqucs.so:_ZN6relais6initDCEv
 libqucs.so:_ZN6relais6initSPEv
@@ -3188,6 +3270,7 @@ libqucs.so:_ZN6spfile17shrinkSParaMatrixEN4qucs6matrixE
 libqucs.so:_ZN6spfile18getInterpolMatrixSEd
 libqucs.so:_ZN6spfile6calcACEd
 libqucs.so:_ZN6spfile6calcSPEd
+libqucs.so:_ZN6spfile6cirdefE
 libqucs.so:_ZN6spfile6initACEv
 libqucs.so:_ZN6spfile6initDCEv
 libqucs.so:_ZN6spfile6initSPEv
@@ -3198,6 +3281,7 @@ libqucs.so:_ZN6spfileC2Ev
 libqucs.so:_ZN6spfileD0Ev
 libqucs.so:_ZN6spfileD1Ev
 libqucs.so:_ZN6spfileD2Ev
+libqucs.so:_ZN6strafo6cirdefE
 libqucs.so:_ZN6strafo6initACEv
 libqucs.so:_ZN6strafo6initDCEv
 libqucs.so:_ZN6strafo6initSPEv
@@ -3222,6 +3306,7 @@ libqucs.so:_ZN6tff_SR6calcDCEv
 libqucs.so:_ZN6tff_SR6calcHBEi
 libqucs.so:_ZN6tff_SR6calcSPEd
 libqucs.so:_ZN6tff_SR6calcTREd
+libqucs.so:_ZN6tff_SR6cirdefE
 libqucs.so:_ZN6tff_SR6initACEv
 libqucs.so:_ZN6tff_SR6initDCEv
 libqucs.so:_ZN6tff_SR6initHBEi
@@ -3234,6 +3319,7 @@ libqucs.so:_ZN6tff_SRC1Ev
 libqucs.so:_ZN6tff_SRC2Ev
 libqucs.so:_ZN6vnoise11calcNoiseACEd
 libqucs.so:_ZN6vnoise11calcNoiseSPEd
+libqucs.so:_ZN6vnoise6cirdefE
 libqucs.so:_ZN6vnoise6initACEv
 libqucs.so:_ZN6vnoise6initDCEv
 libqucs.so:_ZN6vnoise6initSPEv
@@ -3241,6 +3327,7 @@ libqucs.so:_ZN6vnoise6initTREv
 libqucs.so:_ZN6vnoiseC1Ev
 libqucs.so:_ZN6vnoiseC2Ev
 libqucs.so:_ZN6vprobe19saveOperatingPointsEv
+libqucs.so:_ZN6vprobe6cirdefE
 libqucs.so:_ZN6vprobe6initACEv
 libqucs.so:_ZN6vprobe6initDCEv
 libqucs.so:_ZN6vprobe6initSPEv
@@ -3248,6 +3335,7 @@ libqucs.so:_ZN6vprobe6initTREv
 libqucs.so:_ZN6vprobeC1Ev
 libqucs.so:_ZN6vprobeC2Ev
 libqucs.so:_ZN6vpulse6calcTREd
+libqucs.so:_ZN6vpulse6cirdefE
 libqucs.so:_ZN6vpulse6initACEv
 libqucs.so:_ZN6vpulse6initDCEv
 libqucs.so:_ZN6vpulse6initSPEv
@@ -3255,12 +3343,14 @@ libqucs.so:_ZN6vpulse6initTREv
 libqucs.so:_ZN6vpulseC1Ev
 libqucs.so:_ZN6vpulseC2Ev
 libqucs.so:_ZN7biastee6calcTREd
+libqucs.so:_ZN7biastee6cirdefE
 libqucs.so:_ZN7biastee6initACEv
 libqucs.so:_ZN7biastee6initDCEv
 libqucs.so:_ZN7biastee6initSPEv
 libqucs.so:_ZN7biastee6initTREv
 libqucs.so:_ZN7biasteeC1Ev
 libqucs.so:_ZN7biasteeC2Ev
+libqucs.so:_ZN7coupler6cirdefE
 libqucs.so:_ZN7coupler6initACEv
 libqucs.so:_ZN7coupler6initDCEv
 libqucs.so:_ZN7coupler6initSPEv
@@ -3276,6 +3366,7 @@ libqucs.so:_ZN7cpwline19saveCharacteristicsEd
 libqucs.so:_ZN7cpwline6calcABEdRdS0_S0_
 libqucs.so:_ZN7cpwline6calcACEd
 libqucs.so:_ZN7cpwline6calcSPEd
+libqucs.so:_ZN7cpwline6cirdefE
 libqucs.so:_ZN7cpwline6ellipaEd
 libqucs.so:_ZN7cpwline6ellipkEd
 libqucs.so:_ZN7cpwline6initACEv
@@ -3289,6 +3380,7 @@ libqucs.so:_ZN7cpwopen15checkPropertiesEv
 libqucs.so:_ZN7cpwopen5calcYEd
 libqucs.so:_ZN7cpwopen6calcACEd
 libqucs.so:_ZN7cpwopen6calcSPEd
+libqucs.so:_ZN7cpwopen6cirdefE
 libqucs.so:_ZN7cpwopen6initACEv
 libqucs.so:_ZN7cpwopen6initDCEv
 libqucs.so:_ZN7cpwopen6initSPEv
@@ -3299,6 +3391,7 @@ libqucs.so:_ZN7cpwstep15checkPropertiesEv
 libqucs.so:_ZN7cpwstep5calcYEd
 libqucs.so:_ZN7cpwstep6calcACEd
 libqucs.so:_ZN7cpwstep6calcSPEd
+libqucs.so:_ZN7cpwstep6cirdefE
 libqucs.so:_ZN7cpwstep6initACEv
 libqucs.so:_ZN7cpwstep6initDCEv
 libqucs.so:_ZN7cpwstep6initSPEv
@@ -3306,6 +3399,7 @@ libqucs.so:_ZN7cpwstep9calcCendsEdRdS0_
 libqucs.so:_ZN7cpwstepC1Ev
 libqucs.so:_ZN7cpwstepC2Ev
 libqucs.so:_ZN7dcblock6calcTREd
+libqucs.so:_ZN7dcblock6cirdefE
 libqucs.so:_ZN7dcblock6initACEv
 libqucs.so:_ZN7dcblock6initDCEv
 libqucs.so:_ZN7dcblock6initSPEv
@@ -3333,6 +3427,7 @@ libqucs.so:_ZN7digitalC2Ev
 libqucs.so:_ZN7digitalD0Ev
 libqucs.so:_ZN7digitalD1Ev
 libqucs.so:_ZN7digitalD2Ev
+libqucs.so:_ZN7gyrator6cirdefE
 libqucs.so:_ZN7gyrator6initACEv
 libqucs.so:_ZN7gyrator6initDCEv
 libqucs.so:_ZN7gyrator6initSPEv
@@ -3342,11 +3437,13 @@ libqucs.so:_ZN7gyratorC2Ev
 libqucs.so:_ZN7iinoise11calcNoiseACEd
 libqucs.so:_ZN7iinoise11calcNoiseSPEd
 libqucs.so:_ZN7iinoise12calcMatrixCyEd
+libqucs.so:_ZN7iinoise6cirdefE
 libqucs.so:_ZN7iinoise6initSPEv
 libqucs.so:_ZN7iinoiseC1Ev
 libqucs.so:_ZN7iinoiseC2Ev
 libqucs.so:_ZN7ivnoise11calcNoiseACEd
 libqucs.so:_ZN7ivnoise11calcNoiseSPEd
+libqucs.so:_ZN7ivnoise6cirdefE
 libqucs.so:_ZN7ivnoise6initACEv
 libqucs.so:_ZN7ivnoise6initDCEv
 libqucs.so:_ZN7ivnoise6initSPEv
@@ -3371,6 +3468,7 @@ libqucs.so:_ZN7jkff_SR6calcDCEv
 libqucs.so:_ZN7jkff_SR6calcHBEi
 libqucs.so:_ZN7jkff_SR6calcSPEd
 libqucs.so:_ZN7jkff_SR6calcTREd
+libqucs.so:_ZN7jkff_SR6cirdefE
 libqucs.so:_ZN7jkff_SR6initACEv
 libqucs.so:_ZN7jkff_SR6initDCEv
 libqucs.so:_ZN7jkff_SR6initHBEi
@@ -3399,6 +3497,7 @@ libqucs.so:_ZN7log_amp6calcDCEv
 libqucs.so:_ZN7log_amp6calcHBEi
 libqucs.so:_ZN7log_amp6calcSPEd
 libqucs.so:_ZN7log_amp6calcTREd
+libqucs.so:_ZN7log_amp6cirdefE
 libqucs.so:_ZN7log_amp6initACEv
 libqucs.so:_ZN7log_amp6initDCEv
 libqucs.so:_ZN7log_amp6initHBEi
@@ -3427,6 +3526,7 @@ libqucs.so:_ZN7logic_06calcDCEv
 libqucs.so:_ZN7logic_06calcHBEi
 libqucs.so:_ZN7logic_06calcSPEd
 libqucs.so:_ZN7logic_06calcTREd
+libqucs.so:_ZN7logic_06cirdefE
 libqucs.so:_ZN7logic_06initACEv
 libqucs.so:_ZN7logic_06initDCEv
 libqucs.so:_ZN7logic_06initHBEi
@@ -3455,6 +3555,7 @@ libqucs.so:_ZN7logic_16calcDCEv
 libqucs.so:_ZN7logic_16calcHBEi
 libqucs.so:_ZN7logic_16calcSPEd
 libqucs.so:_ZN7logic_16calcTREd
+libqucs.so:_ZN7logic_16cirdefE
 libqucs.so:_ZN7logic_16initACEv
 libqucs.so:_ZN7logic_16initDCEv
 libqucs.so:_ZN7logic_16initHBEi
@@ -3467,6 +3568,7 @@ libqucs.so:_ZN7logic_1C1Ev
 libqucs.so:_ZN7logic_1C2Ev
 libqucs.so:_ZN7logicor10calcOutputEv
 libqucs.so:_ZN7logicor15calcDerivativesEv
+libqucs.so:_ZN7logicor6cirdefE
 libqucs.so:_ZN7logicorC1Ev
 libqucs.so:_ZN7logicorC2Ev
 libqucs.so:_ZN7mod_amp11calcMatrixYEd
@@ -3487,6 +3589,7 @@ libqucs.so:_ZN7mod_amp6calcDCEv
 libqucs.so:_ZN7mod_amp6calcHBEi
 libqucs.so:_ZN7mod_amp6calcSPEd
 libqucs.so:_ZN7mod_amp6calcTREd
+libqucs.so:_ZN7mod_amp6cirdefE
 libqucs.so:_ZN7mod_amp6initACEv
 libqucs.so:_ZN7mod_amp6initDCEv
 libqucs.so:_ZN7mod_amp6initHBEi
@@ -3501,6 +3604,7 @@ libqucs.so:_ZN7mscross11calcMatrixYEd
 libqucs.so:_ZN7mscross13capCorrectionEdd
 libqucs.so:_ZN7mscross6calcACEd
 libqucs.so:_ZN7mscross6calcSPEd
+libqucs.so:_ZN7mscross6cirdefE
 libqucs.so:_ZN7mscross6initACEv
 libqucs.so:_ZN7mscross6initDCEv
 libqucs.so:_ZN7mscross6initSPEv
@@ -3518,6 +3622,7 @@ libqucs.so:_ZN7mslange17analyseDispersionEdddddddddPKcRdS2_S2_S2_
 libqucs.so:_ZN7mslange19saveCharacteristicsEd
 libqucs.so:_ZN7mslange6calcACEd
 libqucs.so:_ZN7mslange6calcSPEd
+libqucs.so:_ZN7mslange6cirdefE
 libqucs.so:_ZN7mslange6initACEv
 libqucs.so:_ZN7mslange6initDCEv
 libqucs.so:_ZN7mslangeC1Ev
@@ -3525,6 +3630,7 @@ libqucs.so:_ZN7mslangeC2Ev
 libqucs.so:_ZN7msmbend11calcMatrixZEd
 libqucs.so:_ZN7msmbend6calcACEd
 libqucs.so:_ZN7msmbend6calcSPEd
+libqucs.so:_ZN7msmbend6cirdefE
 libqucs.so:_ZN7msmbend6initACEv
 libqucs.so:_ZN7msmbend6initDCEv
 libqucs.so:_ZN7msmbendC1Ev
@@ -3533,6 +3639,7 @@ libqucs.so:_ZN7msrstub13calcReactanceEdddddd
 libqucs.so:_ZN7msrstub5calcZEd
 libqucs.so:_ZN7msrstub6calcACEd
 libqucs.so:_ZN7msrstub6calcSPEd
+libqucs.so:_ZN7msrstub6cirdefE
 libqucs.so:_ZN7msrstub6initDCEv
 libqucs.so:_ZN7msrstubC1Ev
 libqucs.so:_ZN7msrstubC2Ev
@@ -3540,6 +3647,7 @@ libqucs.so:_ZN7mutual211calcMatrixYEd
 libqucs.so:_ZN7mutual26calcACEd
 libqucs.so:_ZN7mutual26calcSPEd
 libqucs.so:_ZN7mutual26calcTREd
+libqucs.so:_ZN7mutual26cirdefE
 libqucs.so:_ZN7mutual26initACEv
 libqucs.so:_ZN7mutual26initDCEv
 libqucs.so:_ZN7mutual26initTREv
@@ -3550,6 +3658,7 @@ libqucs.so:_ZN7mutualx11calcMatrixZEd
 libqucs.so:_ZN7mutualx6calcACEd
 libqucs.so:_ZN7mutualx6calcSPEd
 libqucs.so:_ZN7mutualx6calcTREd
+libqucs.so:_ZN7mutualx6cirdefE
 libqucs.so:_ZN7mutualx6initACEv
 libqucs.so:_ZN7mutualx6initDCEv
 libqucs.so:_ZN7mutualx6initTREv
@@ -3573,6 +3682,7 @@ libqucs.so:_ZN7mux2to16calcDCEv
 libqucs.so:_ZN7mux2to16calcHBEi
 libqucs.so:_ZN7mux2to16calcSPEd
 libqucs.so:_ZN7mux2to16calcTREd
+libqucs.so:_ZN7mux2to16cirdefE
 libqucs.so:_ZN7mux2to16initACEv
 libqucs.so:_ZN7mux2to16initDCEv
 libqucs.so:_ZN7mux2to16initHBEi
@@ -3601,6 +3711,7 @@ libqucs.so:_ZN7mux4to16calcDCEv
 libqucs.so:_ZN7mux4to16calcHBEi
 libqucs.so:_ZN7mux4to16calcSPEd
 libqucs.so:_ZN7mux4to16calcTREd
+libqucs.so:_ZN7mux4to16cirdefE
 libqucs.so:_ZN7mux4to16initACEv
 libqucs.so:_ZN7mux4to16initDCEv
 libqucs.so:_ZN7mux4to16initHBEi
@@ -3629,6 +3740,7 @@ libqucs.so:_ZN7mux8to16calcDCEv
 libqucs.so:_ZN7mux8to16calcHBEi
 libqucs.so:_ZN7mux8to16calcSPEd
 libqucs.so:_ZN7mux8to16calcTREd
+libqucs.so:_ZN7mux8to16cirdefE
 libqucs.so:_ZN7mux8to16initACEv
 libqucs.so:_ZN7mux8to16initDCEv
 libqucs.so:_ZN7mux8to16initHBEi
@@ -3657,6 +3769,7 @@ libqucs.so:_ZN7pad2bit6calcDCEv
 libqucs.so:_ZN7pad2bit6calcHBEi
 libqucs.so:_ZN7pad2bit6calcSPEd
 libqucs.so:_ZN7pad2bit6calcTREd
+libqucs.so:_ZN7pad2bit6cirdefE
 libqucs.so:_ZN7pad2bit6initACEv
 libqucs.so:_ZN7pad2bit6initDCEv
 libqucs.so:_ZN7pad2bit6initHBEi
@@ -3685,6 +3798,7 @@ libqucs.so:_ZN7pad3bit6calcDCEv
 libqucs.so:_ZN7pad3bit6calcHBEi
 libqucs.so:_ZN7pad3bit6calcSPEd
 libqucs.so:_ZN7pad3bit6calcTREd
+libqucs.so:_ZN7pad3bit6cirdefE
 libqucs.so:_ZN7pad3bit6initACEv
 libqucs.so:_ZN7pad3bit6initDCEv
 libqucs.so:_ZN7pad3bit6initHBEi
@@ -3713,6 +3827,7 @@ libqucs.so:_ZN7pad4bit6calcDCEv
 libqucs.so:_ZN7pad4bit6calcHBEi
 libqucs.so:_ZN7pad4bit6calcSPEd
 libqucs.so:_ZN7pad4bit6calcTREd
+libqucs.so:_ZN7pad4bit6cirdefE
 libqucs.so:_ZN7pad4bit6initACEv
 libqucs.so:_ZN7pad4bit6initDCEv
 libqucs.so:_ZN7pad4bit6initHBEi
@@ -3728,6 +3843,7 @@ libqucs.so:_ZN7tline4p11calcNoiseSPEd
 libqucs.so:_ZN7tline4p6calcACEd
 libqucs.so:_ZN7tline4p6calcSPEd
 libqucs.so:_ZN7tline4p6calcTREd
+libqucs.so:_ZN7tline4p6cirdefE
 libqucs.so:_ZN7tline4p6initACEv
 libqucs.so:_ZN7tline4p6initDCEv
 libqucs.so:_ZN7tline4p6initTREv
@@ -3736,6 +3852,7 @@ libqucs.so:_ZN7tline4pC2Ev
 libqucs.so:_ZN7tswitch11calcNoiseACEd
 libqucs.so:_ZN7tswitch11calcNoiseSPEd
 libqucs.so:_ZN7tswitch6calcTREd
+libqucs.so:_ZN7tswitch6cirdefE
 libqucs.so:_ZN7tswitch6initACEv
 libqucs.so:_ZN7tswitch6initDCEv
 libqucs.so:_ZN7tswitch6initSPEv
@@ -3745,6 +3862,7 @@ libqucs.so:_ZN7tswitchC1Ev
 libqucs.so:_ZN7tswitchC2Ev
 libqucs.so:_ZN7vvnoise11calcNoiseACEd
 libqucs.so:_ZN7vvnoise11calcNoiseSPEd
+libqucs.so:_ZN7vvnoise6cirdefE
 libqucs.so:_ZN7vvnoise6initACEv
 libqucs.so:_ZN7vvnoise6initDCEv
 libqucs.so:_ZN7vvnoise6initSPEv
@@ -3769,6 +3887,7 @@ libqucs.so:_ZN8DLS_1ton6calcDCEv
 libqucs.so:_ZN8DLS_1ton6calcHBEi
 libqucs.so:_ZN8DLS_1ton6calcSPEd
 libqucs.so:_ZN8DLS_1ton6calcTREd
+libqucs.so:_ZN8DLS_1ton6cirdefE
 libqucs.so:_ZN8DLS_1ton6initACEv
 libqucs.so:_ZN8DLS_1ton6initDCEv
 libqucs.so:_ZN8DLS_1ton6initHBEi
@@ -3797,6 +3916,7 @@ libqucs.so:_ZN8DLS_nto16calcDCEv
 libqucs.so:_ZN8DLS_nto16calcHBEi
 libqucs.so:_ZN8DLS_nto16calcSPEd
 libqucs.so:_ZN8DLS_nto16calcTREd
+libqucs.so:_ZN8DLS_nto16cirdefE
 libqucs.so:_ZN8DLS_nto16initACEv
 libqucs.so:_ZN8DLS_nto16initDCEv
 libqucs.so:_ZN8DLS_nto16initHBEi
@@ -3825,6 +3945,7 @@ libqucs.so:_ZN8EKV26MOS6calcDCEv
 libqucs.so:_ZN8EKV26MOS6calcHBEi
 libqucs.so:_ZN8EKV26MOS6calcSPEd
 libqucs.so:_ZN8EKV26MOS6calcTREd
+libqucs.so:_ZN8EKV26MOS6cirdefE
 libqucs.so:_ZN8EKV26MOS6initACEv
 libqucs.so:_ZN8EKV26MOS6initDCEv
 libqucs.so:_ZN8EKV26MOS6initHBEi
@@ -3853,6 +3974,7 @@ libqucs.so:_ZN8andor4x26calcDCEv
 libqucs.so:_ZN8andor4x26calcHBEi
 libqucs.so:_ZN8andor4x26calcSPEd
 libqucs.so:_ZN8andor4x26calcTREd
+libqucs.so:_ZN8andor4x26cirdefE
 libqucs.so:_ZN8andor4x26initACEv
 libqucs.so:_ZN8andor4x26initDCEv
 libqucs.so:_ZN8andor4x26initHBEi
@@ -3881,6 +4003,7 @@ libqucs.so:_ZN8andor4x36calcDCEv
 libqucs.so:_ZN8andor4x36calcHBEi
 libqucs.so:_ZN8andor4x36calcSPEd
 libqucs.so:_ZN8andor4x36calcTREd
+libqucs.so:_ZN8andor4x36cirdefE
 libqucs.so:_ZN8andor4x36initACEv
 libqucs.so:_ZN8andor4x36initDCEv
 libqucs.so:_ZN8andor4x36initHBEi
@@ -3909,6 +4032,7 @@ libqucs.so:_ZN8andor4x46calcDCEv
 libqucs.so:_ZN8andor4x46calcHBEi
 libqucs.so:_ZN8andor4x46calcSPEd
 libqucs.so:_ZN8andor4x46calcTREd
+libqucs.so:_ZN8andor4x46cirdefE
 libqucs.so:_ZN8andor4x46initACEv
 libqucs.so:_ZN8andor4x46initDCEv
 libqucs.so:_ZN8andor4x46initHBEi
@@ -3926,6 +4050,7 @@ libqucs.so:_ZN8bondwire13getPropertiesEv
 libqucs.so:_ZN8bondwire19saveCharacteristicsEd
 libqucs.so:_ZN8bondwire6calcACEd
 libqucs.so:_ZN8bondwire6calcSPEd
+libqucs.so:_ZN8bondwire6cirdefE
 libqucs.so:_ZN8bondwire6initACEv
 libqucs.so:_ZN8bondwire6initDCEv
 libqucs.so:_ZN8bondwire6initSPEv
@@ -3937,6 +4062,7 @@ libqucs.so:_ZN8coaxline15calcPropagationEd
 libqucs.so:_ZN8coaxline19saveCharacteristicsEd
 libqucs.so:_ZN8coaxline6calcACEd
 libqucs.so:_ZN8coaxline6calcSPEd
+libqucs.so:_ZN8coaxline6cirdefE
 libqucs.so:_ZN8coaxline6initACEv
 libqucs.so:_ZN8coaxline6initDCEv
 libqucs.so:_ZN8coaxline6initSPEv
@@ -3947,6 +4073,7 @@ libqucs.so:_ZN8cpwshort15checkPropertiesEv
 libqucs.so:_ZN8cpwshort5calcZEd
 libqucs.so:_ZN8cpwshort6calcACEd
 libqucs.so:_ZN8cpwshort6calcSPEd
+libqucs.so:_ZN8cpwshort6cirdefE
 libqucs.so:_ZN8cpwshort6initACEv
 libqucs.so:_ZN8cpwshort6initDCEv
 libqucs.so:_ZN8cpwshort6initSPEv
@@ -3971,6 +4098,7 @@ libqucs.so:_ZN8dmux2to46calcDCEv
 libqucs.so:_ZN8dmux2to46calcHBEi
 libqucs.so:_ZN8dmux2to46calcSPEd
 libqucs.so:_ZN8dmux2to46calcTREd
+libqucs.so:_ZN8dmux2to46cirdefE
 libqucs.so:_ZN8dmux2to46initACEv
 libqucs.so:_ZN8dmux2to46initDCEv
 libqucs.so:_ZN8dmux2to46initHBEi
@@ -3999,6 +4127,7 @@ libqucs.so:_ZN8dmux3to86calcDCEv
 libqucs.so:_ZN8dmux3to86calcHBEi
 libqucs.so:_ZN8dmux3to86calcSPEd
 libqucs.so:_ZN8dmux3to86calcTREd
+libqucs.so:_ZN8dmux3to86cirdefE
 libqucs.so:_ZN8dmux3to86initACEv
 libqucs.so:_ZN8dmux3to86initDCEv
 libqucs.so:_ZN8dmux3to86initHBEi
@@ -4023,6 +4152,7 @@ libqucs.so:_ZN8inductor6calcDCEv
 libqucs.so:_ZN8inductor6calcHBEd
 libqucs.so:_ZN8inductor6calcSPEd
 libqucs.so:_ZN8inductor6calcTREd
+libqucs.so:_ZN8inductor6cirdefE
 libqucs.so:_ZN8inductor6initACEv
 libqucs.so:_ZN8inductor6initDCEv
 libqucs.so:_ZN8inductor6initHBEv
@@ -4031,10 +4161,12 @@ libqucs.so:_ZN8inductorC1Ev
 libqucs.so:_ZN8inductorC2Ev
 libqucs.so:_ZN8inverter10calcOutputEv
 libqucs.so:_ZN8inverter15calcDerivativesEv
+libqucs.so:_ZN8inverter6cirdefE
 libqucs.so:_ZN8inverterC1Ev
 libqucs.so:_ZN8inverterC2Ev
 libqucs.so:_ZN8isolator11calcNoiseACEd
 libqucs.so:_ZN8isolator11calcNoiseSPEd
+libqucs.so:_ZN8isolator6cirdefE
 libqucs.so:_ZN8isolator6initACEv
 libqucs.so:_ZN8isolator6initDCEv
 libqucs.so:_ZN8isolator6initSPEv
@@ -4043,19 +4175,23 @@ libqucs.so:_ZN8isolatorC1Ev
 libqucs.so:_ZN8isolatorC2Ev
 libqucs.so:_ZN8logicand10calcOutputEv
 libqucs.so:_ZN8logicand15calcDerivativesEv
+libqucs.so:_ZN8logicand6cirdefE
 libqucs.so:_ZN8logicandC1Ev
 libqucs.so:_ZN8logicandC2Ev
 libqucs.so:_ZN8logicnor10calcOutputEv
 libqucs.so:_ZN8logicnor15calcDerivativesEv
+libqucs.so:_ZN8logicnor6cirdefE
 libqucs.so:_ZN8logicnorC1Ev
 libqucs.so:_ZN8logicnorC2Ev
 libqucs.so:_ZN8logicxor10calcOutputEv
 libqucs.so:_ZN8logicxor15calcDerivativesEv
+libqucs.so:_ZN8logicxor6cirdefE
 libqucs.so:_ZN8logicxorC1Ev
 libqucs.so:_ZN8logicxorC2Ev
 libqucs.so:_ZN8mscorner11calcMatrixZEd
 libqucs.so:_ZN8mscorner6calcACEd
 libqucs.so:_ZN8mscorner6calcSPEd
+libqucs.so:_ZN8mscorner6cirdefE
 libqucs.so:_ZN8mscorner6initACEv
 libqucs.so:_ZN8mscorner6initDCEv
 libqucs.so:_ZN8mscorner6initSPEv
@@ -4069,6 +4205,7 @@ libqucs.so:_ZN8rectline15calcResistivityEPKcd
 libqucs.so:_ZN8rectline19saveCharacteristicsESt7complexIdE
 libqucs.so:_ZN8rectline6calcACEd
 libqucs.so:_ZN8rectline6calcSPEd
+libqucs.so:_ZN8rectline6cirdefE
 libqucs.so:_ZN8rectline6initACEv
 libqucs.so:_ZN8rectline6initDCEv
 libqucs.so:_ZN8rectline6initSPEv
@@ -4081,6 +4218,7 @@ libqucs.so:_ZN8resistor6calcACEd
 libqucs.so:_ZN8resistor6calcDCEv
 libqucs.so:_ZN8resistor6calcSPEd
 libqucs.so:_ZN8resistor6calcTREd
+libqucs.so:_ZN8resistor6cirdefE
 libqucs.so:_ZN8resistor6initACEv
 libqucs.so:_ZN8resistor6initDCEv
 libqucs.so:_ZN8resistor6initHBEv
@@ -4091,6 +4229,7 @@ libqucs.so:_ZN8resistorC1Ev
 libqucs.so:_ZN8resistorC2Ev
 libqucs.so:_ZN9amplifier11calcNoiseACEd
 libqucs.so:_ZN9amplifier11calcNoiseSPEd
+libqucs.so:_ZN9amplifier6cirdefE
 libqucs.so:_ZN9amplifier6initACEv
 libqucs.so:_ZN9amplifier6initDCEv
 libqucs.so:_ZN9amplifier6initSPEv
@@ -4101,6 +4240,7 @@ libqucs.so:_ZN9capacitor6calcACEd
 libqucs.so:_ZN9capacitor6calcHBEd
 libqucs.so:_ZN9capacitor6calcSPEd
 libqucs.so:_ZN9capacitor6calcTREd
+libqucs.so:_ZN9capacitor6cirdefE
 libqucs.so:_ZN9capacitor6initACEv
 libqucs.so:_ZN9capacitor6initDCEv
 libqucs.so:_ZN9capacitor6initHBEv
@@ -4125,6 +4265,7 @@ libqucs.so:_ZN9comp_1bit6calcDCEv
 libqucs.so:_ZN9comp_1bit6calcHBEi
 libqucs.so:_ZN9comp_1bit6calcSPEd
 libqucs.so:_ZN9comp_1bit6calcTREd
+libqucs.so:_ZN9comp_1bit6cirdefE
 libqucs.so:_ZN9comp_1bit6initACEv
 libqucs.so:_ZN9comp_1bit6initDCEv
 libqucs.so:_ZN9comp_1bit6initHBEi
@@ -4153,6 +4294,7 @@ libqucs.so:_ZN9comp_2bit6calcDCEv
 libqucs.so:_ZN9comp_2bit6calcHBEi
 libqucs.so:_ZN9comp_2bit6calcSPEd
 libqucs.so:_ZN9comp_2bit6calcTREd
+libqucs.so:_ZN9comp_2bit6cirdefE
 libqucs.so:_ZN9comp_2bit6initACEv
 libqucs.so:_ZN9comp_2bit6initDCEv
 libqucs.so:_ZN9comp_2bit6initHBEi
@@ -4181,6 +4323,7 @@ libqucs.so:_ZN9comp_4bit6calcDCEv
 libqucs.so:_ZN9comp_4bit6calcHBEi
 libqucs.so:_ZN9comp_4bit6calcSPEd
 libqucs.so:_ZN9comp_4bit6calcTREd
+libqucs.so:_ZN9comp_4bit6cirdefE
 libqucs.so:_ZN9comp_4bit6initACEv
 libqucs.so:_ZN9comp_4bit6initDCEv
 libqucs.so:_ZN9comp_4bit6initHBEi
@@ -4209,6 +4352,7 @@ libqucs.so:_ZN9dmux4to166calcDCEv
 libqucs.so:_ZN9dmux4to166calcHBEi
 libqucs.so:_ZN9dmux4to166calcSPEd
 libqucs.so:_ZN9dmux4to166calcTREd
+libqucs.so:_ZN9dmux4to166cirdefE
 libqucs.so:_ZN9dmux4to166initACEv
 libqucs.so:_ZN9dmux4to166initDCEv
 libqucs.so:_ZN9dmux4to166initHBEi
@@ -4221,10 +4365,12 @@ libqucs.so:_ZN9dmux4to16C1Ev
 libqucs.so:_ZN9dmux4to16C2Ev
 libqucs.so:_ZN9logicnand10calcOutputEv
 libqucs.so:_ZN9logicnand15calcDerivativesEv
+libqucs.so:_ZN9logicnand6cirdefE
 libqucs.so:_ZN9logicnandC1Ev
 libqucs.so:_ZN9logicnandC2Ev
 libqucs.so:_ZN9logicxnor10calcOutputEv
 libqucs.so:_ZN9logicxnor15calcDerivativesEv
+libqucs.so:_ZN9logicxnor6cirdefE
 libqucs.so:_ZN9logicxnorC1Ev
 libqucs.so:_ZN9logicxnorC2Ev
 libqucs.so:_ZN9mscoupled11calcNoiseACEd
@@ -4235,6 +4381,7 @@ libqucs.so:_ZN9mscoupled17analyseDispersionEdddddddddPKcRdS2_S2_S2_
 libqucs.so:_ZN9mscoupled19saveCharacteristicsEd
 libqucs.so:_ZN9mscoupled6calcACEd
 libqucs.so:_ZN9mscoupled6calcSPEd
+libqucs.so:_ZN9mscoupled6cirdefE
 libqucs.so:_ZN9mscoupled6initACEv
 libqucs.so:_ZN9mscoupled6initDCEv
 libqucs.so:_ZN9mscoupledC1Ev
@@ -4248,6 +4395,7 @@ libqucs.so:_ZN9thyristor6calcACEd
 libqucs.so:_ZN9thyristor6calcDCEv
 libqucs.so:_ZN9thyristor6calcSPEd
 libqucs.so:_ZN9thyristor6calcTREd
+libqucs.so:_ZN9thyristor6cirdefE
 libqucs.so:_ZN9thyristor6initACEv
 libqucs.so:_ZN9thyristor6initDCEv
 libqucs.so:_ZN9thyristor6initTREv
@@ -4301,59 +4449,161 @@ libqucs.so:_ZNK4qucs9devstatesclEi
 libqucs.so:_ZNK8bondwire10LfreespaceEd
 libqucs.so:_ZNK8bondwire10resistanceEd
 libqucs.so:_ZNK8bondwire7LmirrorEv
+libqucs.so:_fini
+libqucs.so:_init
+libqucs.so:citi__flex_debug
+libqucs.so:citi_char
 libqucs.so:citi_check
+libqucs.so:citi_debug
 libqucs.so:citi_destroy
 libqucs.so:citi_error
+libqucs.so:citi_in
 libqucs.so:citi_init
+libqucs.so:citi_leng
 libqucs.so:citi_lex
 libqucs.so:citi_lex_destroy
+libqucs.so:citi_lineno
+libqucs.so:citi_lval
+libqucs.so:citi_nerrs
+libqucs.so:citi_out
 libqucs.so:citi_parse
+libqucs.so:citi_result
+libqucs.so:citi_root
+libqucs.so:citi_text
+libqucs.so:csv__flex_debug
+libqucs.so:csv_char
 libqucs.so:csv_check
+libqucs.so:csv_debug
 libqucs.so:csv_destroy
 libqucs.so:csv_error
+libqucs.so:csv_header
+libqucs.so:csv_in
 libqucs.so:csv_init
+libqucs.so:csv_leng
 libqucs.so:csv_lex
 libqucs.so:csv_lex_destroy
+libqucs.so:csv_lineno
+libqucs.so:csv_lval
+libqucs.so:csv_nerrs
+libqucs.so:csv_out
 libqucs.so:csv_parse
+libqucs.so:csv_result
+libqucs.so:csv_text
+libqucs.so:csv_vector
+libqucs.so:dataset__flex_debug
+libqucs.so:dataset_char
 libqucs.so:dataset_check
+libqucs.so:dataset_debug
 libqucs.so:dataset_error
+libqucs.so:dataset_idents
+libqucs.so:dataset_in
+libqucs.so:dataset_leng
 libqucs.so:dataset_lex
 libqucs.so:dataset_lex_destroy
+libqucs.so:dataset_lineno
+libqucs.so:dataset_lval
+libqucs.so:dataset_nerrs
+libqucs.so:dataset_out
 libqucs.so:dataset_parse
+libqucs.so:dataset_result
+libqucs.so:dataset_text
+libqucs.so:dataset_vector
+libqucs.so:definition_root
+libqucs.so:env_root
+libqucs.so:factorycreate
+libqucs.so:factorydef
+libqucs.so:file_error
+libqucs.so:file_status
+libqucs.so:itr
 libqucs.so:loginit
 libqucs.so:logprint
 libqucs.so:logprogressbar
 libqucs.so:logprogressclear
+libqucs.so:mdl__flex_debug
+libqucs.so:mdl_char
 libqucs.so:mdl_check
+libqucs.so:mdl_debug
 libqucs.so:mdl_destroy
 libqucs.so:mdl_error
+libqucs.so:mdl_in
 libqucs.so:mdl_init
+libqucs.so:mdl_leng
 libqucs.so:mdl_lex
 libqucs.so:mdl_lex_destroy
+libqucs.so:mdl_lineno
+libqucs.so:mdl_lval
+libqucs.so:mdl_nerrs
+libqucs.so:mdl_out
 libqucs.so:mdl_parse
+libqucs.so:mdl_result
+libqucs.so:mdl_root
+libqucs.so:mdl_sync_root
+libqucs.so:mdl_text
+libqucs.so:miscdef1
+libqucs.so:miscdef2
+libqucs.so:netlist__flex_debug
+libqucs.so:netlist_char
 libqucs.so:netlist_checker
 libqucs.so:netlist_checker_variables
+libqucs.so:netlist_debug
 libqucs.so:netlist_destroy
 libqucs.so:netlist_destroy_env
 libqucs.so:netlist_error
+libqucs.so:netlist_in
+libqucs.so:netlist_leng
 libqucs.so:netlist_lex
 libqucs.so:netlist_lex_destroy
+libqucs.so:netlist_lineno
 libqucs.so:netlist_list
+libqucs.so:netlist_lval
+libqucs.so:netlist_nerrs
+libqucs.so:netlist_out
 libqucs.so:netlist_parse
 libqucs.so:netlist_status
+libqucs.so:netlist_text
 libqucs.so:netlist_unchain_definition
+libqucs.so:progressbar_enable
+libqucs.so:progressbar_gui
+libqucs.so:progressbar_last
 libqucs.so:redirect_status_to_stdout
+libqucs.so:subcircuit_root
+libqucs.so:touchstone__flex_debug
+libqucs.so:touchstone_char
 libqucs.so:touchstone_check
+libqucs.so:touchstone_debug
 libqucs.so:touchstone_destroy
 libqucs.so:touchstone_error
+libqucs.so:touchstone_idents
+libqucs.so:touchstone_in
 libqucs.so:touchstone_init
+libqucs.so:touchstone_leng
 libqucs.so:touchstone_lex
 libqucs.so:touchstone_lex_destroy
+libqucs.so:touchstone_lineno
+libqucs.so:touchstone_lval
+libqucs.so:touchstone_nerrs
+libqucs.so:touchstone_options
+libqucs.so:touchstone_out
 libqucs.so:touchstone_parse
+libqucs.so:touchstone_result
+libqucs.so:touchstone_text
+libqucs.so:touchstone_vector
+libqucs.so:zvr__flex_debug
+libqucs.so:zvr_char
 libqucs.so:zvr_check
+libqucs.so:zvr_debug
 libqucs.so:zvr_destroy
 libqucs.so:zvr_error
+libqucs.so:zvr_in
 libqucs.so:zvr_init
+libqucs.so:zvr_leng
 libqucs.so:zvr_lex
 libqucs.so:zvr_lex_destroy
+libqucs.so:zvr_lineno
+libqucs.so:zvr_lval
+libqucs.so:zvr_nerrs
+libqucs.so:zvr_out
 libqucs.so:zvr_parse
+libqucs.so:zvr_result
+libqucs.so:zvr_root
+libqucs.so:zvr_text
